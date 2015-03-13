@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAC81361AB30EA300120A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC81351AB30EA300120A2E /* main.m */; };
+		4EAC81391AB30EA300120A2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC81381AB30EA300120A2E /* AppDelegate.m */; };
+		4EAC815B1AB30EB500120A2E /* SilenceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC815A1AB30EB500120A2E /* SilenceMaker.m */; };
+		4EAC815D1AB30FAF00120A2E /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC815C1AB30FAF00120A2E /* Warnings.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EAC81301AB30EA300120A2E /* SilenceMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilenceMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAC81341AB30EA300120A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAC81351AB30EA300120A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EAC81371AB30EA300120A2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EAC81381AB30EA300120A2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EAC81591AB30EB500120A2E /* SilenceMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilenceMaker.h; sourceTree = "<group>"; };
+		4EAC815A1AB30EB500120A2E /* SilenceMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SilenceMaker.m; sourceTree = "<group>"; };
+		4EAC815C1AB30FAF00120A2E /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAC812D1AB30EA300120A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAC81271AB30EA200120A2E = {
+			isa = PBXGroup;
+			children = (
+				4EAC81321AB30EA300120A2E /* SilenceMaker */,
+				4EAC81311AB30EA300120A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAC81311AB30EA300120A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC81301AB30EA300120A2E /* SilenceMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAC81321AB30EA300120A2E /* SilenceMaker */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC81371AB30EA300120A2E /* AppDelegate.h */,
+				4EAC81381AB30EA300120A2E /* AppDelegate.m */,
+				4EAC81591AB30EB500120A2E /* SilenceMaker.h */,
+				4EAC815A1AB30EB500120A2E /* SilenceMaker.m */,
+				4EAC815C1AB30FAF00120A2E /* Warnings.xcconfig */,
+				4EAC81331AB30EA300120A2E /* Supporting Files */,
+			);
+			path = SilenceMaker;
+			sourceTree = "<group>";
+		};
+		4EAC81331AB30EA300120A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC81341AB30EA300120A2E /* Info.plist */,
+				4EAC81351AB30EA300120A2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAC812F1AB30EA300120A2E /* SilenceMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAC81531AB30EA300120A2E /* Build configuration list for PBXNativeTarget "SilenceMaker" */;
+			buildPhases = (
+				4EAC812C1AB30EA300120A2E /* Sources */,
+				4EAC812D1AB30EA300120A2E /* Frameworks */,
+				4EAC812E1AB30EA300120A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilenceMaker;
+			productName = SilenceMaker;
+			productReference = 4EAC81301AB30EA300120A2E /* SilenceMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAC81281AB30EA200120A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MyDay;
+				TargetAttributes = {
+					4EAC812F1AB30EA300120A2E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 4EAC812B1AB30EA200120A2E /* Build configuration list for PBXProject "SilenceMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EAC81271AB30EA200120A2E;
+			productRefGroup = 4EAC81311AB30EA300120A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAC812F1AB30EA300120A2E /* SilenceMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAC812E1AB30EA300120A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAC815D1AB30FAF00120A2E /* Warnings.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAC812C1AB30EA300120A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAC815B1AB30EB500120A2E /* SilenceMaker.m in Sources */,
+				4EAC81391AB30EA300120A2E /* AppDelegate.m in Sources */,
+				4EAC81361AB30EA300120A2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EAC81511AB30EA300120A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAC815C1AB30FAF00120A2E /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EAC81521AB30EA300120A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAC81541AB30EA300120A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilenceMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EAC81551AB30EA300120A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilenceMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAC812B1AB30EA200120A2E /* Build configuration list for PBXProject "SilenceMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAC81511AB30EA300120A2E /* Debug */,
+				4EAC81521AB30EA300120A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAC81531AB30EA300120A2E /* Build configuration list for PBXNativeTarget "SilenceMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAC81541AB30EA300120A2E /* Debug */,
+				4EAC81551AB30EA300120A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAC81281AB30EA200120A2E /* Project object */;
+}
